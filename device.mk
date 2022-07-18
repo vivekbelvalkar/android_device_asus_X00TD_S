@@ -7,6 +7,8 @@
 # Inherit from sdm660-common
 $(call inherit-product, device/asus/sdm660-common/sdm660.mk)
 
+OVERRIDE_TARGET_FLATTEN_APEX := true
+
 # Boot animation
 TARGET_SCREEN_HEIGHT := 2160
 TARGET_SCREEN_WIDTH := 1080
