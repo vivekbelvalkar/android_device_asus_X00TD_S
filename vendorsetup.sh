@@ -1,1 +1,1 @@
-add_lunch_combo lineage_X00TD-user
+add_lunch_combo potato_X00TD-user
