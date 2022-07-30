@@ -9,6 +9,10 @@ $(call inherit-product, device/asus/sdm660-common/sdm660.mk)
 
 OVERRIDE_TARGET_FLATTEN_APEX := true
 
+# Potato product configuration
+PRODUCT_BOARD_PLATFORM := sdm660
+PRODUCT_USES_QCOM_HARDWARE := true
+
 # Boot animation
 TARGET_SCREEN_HEIGHT := 2160
 TARGET_SCREEN_WIDTH := 1080
